@@ -15,11 +15,22 @@ And I execute playbook.yml with the following code line :
 ansible-playbook playbook.yml -i hosts -u user -K
 
 
+
+
+
+
+
 [Packer]
 
 I used a file named scaleway-cloud-courses-template.json where i'm filling the informations needed for the creation of my image. 
 
 I use those code lines "export SCW_TOKEN=yourToken" and "export SCALEWAY_ORGANIZATION=yourOrganizationId" in my .bashrc file in order to safely add my Token and Organization ID.
+
+
+
+
+
+
 
 
 [Terraform]
