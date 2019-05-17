@@ -16,14 +16,11 @@
   ],
   "provisioners": [
     {
-      "type": "shell",
-      "script": "ubuntu_install.sh"
-    },
-    {
-      "type": "shell",
-      "inline": ["sync"]
+      "type": "ansible",
+      "playbook_file": "../../wordpress-ansible/playbook.yml"
     }
   ],
+  
   "variables": {
     "organization_id": "{{env `SCW_ORG`}}",
     "api_token": "{{env `SCW_TOKEN`}}",
