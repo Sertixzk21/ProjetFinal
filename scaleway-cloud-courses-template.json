@@ -20,7 +20,7 @@
       "playbook_file": "../../wordpress-ansible/playbook.yml"
     }
   ],
-  
+
   "variables": {
     "organization_id": "{{env `SCW_ORG`}}",
     "api_token": "{{env `SCW_TOKEN`}}",
