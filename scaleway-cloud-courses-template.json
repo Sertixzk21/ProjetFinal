@@ -17,7 +17,7 @@
   "provisioners": [
     {
       "type": "ansible",
-      "playbook_file": "../../wordpress-ansible/playbook.yml"
+      "playbook_file": "playbook.yml"
     }
   ],
 
