@@ -12,7 +12,7 @@ I splited my playbook in roles (for the server, php, mysql and wordpress)
 
 And I execute playbook.yml with the following code line :
 
-__aansible-playbook playbook.yml -i hosts -u root__
+__ansible-playbook playbook.yml -i hosts -u root__
 
 
 
